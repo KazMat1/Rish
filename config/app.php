@@ -68,8 +68,8 @@ return [
     | ahead and set this to a sensible default for you out of the box.
     |
     */
-
-    'timezone' => 'UTC',
+    // timezoneを変更しました。UTC -> Aisa/Tokyo
+    'timezone' => 'Asia/Tokyo',
 
     /*
     |--------------------------------------------------------------------------
@@ -81,8 +81,8 @@ return [
     | to any of the locales which will be supported by the application.
     |
     */
-
-    'locale' => 'en',
+    // localeを変更しました。en -> ja
+    'locale' => 'ja',
 
     /*
     |--------------------------------------------------------------------------
