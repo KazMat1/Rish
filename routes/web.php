@@ -23,6 +23,7 @@ Route::get('/dashboard', function () {
 
 Route::get('/top', function () {
     return view('top.hero');
+// })->middleware(['auth'])->name('dashboard')->name('top.hero');
 })->name('top.hero');
 
 require __DIR__.'/auth.php';
