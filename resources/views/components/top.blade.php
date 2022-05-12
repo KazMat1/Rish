@@ -36,6 +36,8 @@
             {{ $slot }}
         </main>
     </div>
+    {{-- flowbiteの読み込み --}}
+    <script src="../../../node_modules/flowbite/dist/flowbite.js"></script>
 </body>
 
 </html>
